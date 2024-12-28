@@ -5,11 +5,15 @@ body {
   padding: 0;
   transition: background-color 0.3s, color 0.3s; /* 过渡动画效果 */
 }
-
 /* 定义暗色模式下的背景和文字颜色 */
-.dark-mode {
+.dark-mode{
   background-color: #333;
   color: #fff;
+}
+
+/* 暗色模式下的文字样式 */
+.dark-mode .logo-text {
+  fill: #fff; /* 白色文字 */
 }
 
 /* 暗色模式下导航项样式 */
