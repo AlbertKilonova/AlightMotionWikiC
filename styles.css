@@ -19,7 +19,7 @@ body {
 
 /* 暗色模式下激活状态的导航项样式 */
 .dark-mode .nav-item.active {
-  color: #00FFA8; /* 保持不变 */
+  color: #5CE5FF; /* 保持不变 */
 }
 
 /* 暗色模式下模式切换按钮样式 */
@@ -41,7 +41,7 @@ body {
 }
 
 .dark-mode .search-button {
-  background-color: #00FFA8;
+  background-color: #5CE5FF;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .dark-mode .slider-bar {
-  background-image: linear-gradient(to top, #00FFA8, rgba(0, 123, 255, 0));
+  background-image: linear-gradient(to top, #5CE5FF, rgba(92, 229, 255, 0));
 }
 
 /* 暗色模式下搜索框和按钮 */
@@ -86,7 +86,7 @@ body {
 }
 
 .dark-mode .search-button {
-  background-color: #00FFA8;
+  background-color: #5CE5FF;
 }
 
 /* 暗色模式下模态框样式 */
@@ -135,12 +135,12 @@ body {
 /* 导航项悬浮和焦点状态样式 */
 .nav-item:hover,
 .nav-item:focus {
-  color: #00FFA8;
+  color: #5CE5FF;
 }
 
 /* 激活状态的导航项样式 */
 .nav-item.active {
-  color: #00FFA8;
+  color: #5CE5FF;
 }
 
 /* 滑动条样式 */
@@ -149,7 +149,7 @@ body {
   bottom: 0;
   left: 0;
   height: 2px;
-  background-image: linear-gradient(to top, #00FFA8, rgba(0, 123, 255, 0));
+  background-image: linear-gradient(to top, #5CE5FF, rgba(92, 229, 255, 0));
   transition: left 0.3s ease, width 0.3s ease;
   z-index: 0;
 }
@@ -164,7 +164,7 @@ body {
 
 /* 模式切换按钮悬浮样式 */
 .mode-toggle:hover {
-  color: #00FFA8;
+  color: #5CE5FF;
 }
 
 /* 暗色模式下月亮图标的显示和隐藏 */
@@ -193,7 +193,7 @@ body {
 .search-box {
   flex-grow: 1; /* 输入框占据剩余空间 */
   padding: 10px 15px; /* 内边距 */
-  border: 1px solid #4caf50;
+  border: 1px solid #48D1EB;
   border-radius: 25px 0 0 25px; /* 圆角 */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   outline: none;
@@ -202,8 +202,8 @@ body {
 
 /* 搜索框聚焦时样式 */
 .search-box:focus {
-  border-color: #76ff03;
-  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.5);
+  border-color: #70F9FF;
+  box-shadow: 0 4px 15px rgba(0, 100, 255, 0.5);
 }
 
 /* 搜索按钮样式 */
@@ -213,7 +213,7 @@ body {
   justify-content: center; /* 图标居中 */
   padding: 10px; /* 内边距 */
   border: none;
-  background-color: #76ff03;
+  background-color: #70F9FF;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   color: #000;
   border-radius: 0 25px 25px 0; /* 圆角 */
@@ -223,7 +223,7 @@ body {
 
 /* 搜索按钮悬浮时样式 */
 .search-button:hover {
-  background-color: #45a049;
+  background-color: #48B1D7;
   color: #fff;
 }
 
