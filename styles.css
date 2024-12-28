@@ -215,7 +215,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; /* 图标居中 */
-  padding: 10px; /* 内边距 */
+  padding: 11.5px; /* 内边距 */
   border: none;
   background-color: #70F9FF;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

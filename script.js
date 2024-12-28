@@ -3,12 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const sliderBar = document.querySelector('.slider-bar');
   const modeToggle = document.getElementById('modeToggle');
   const contents = document.querySelectorAll('.content');
-  const searchBox = document.querySelector('.search-box');
-  const searchButton = document.querySelector('.search-button');
-  const searchModal = document.getElementById('searchModal');
-  const searchResults = document.getElementById('searchResults');
-  const closeBtn = document.querySelector('.close');
-  let allPosts = []; // 用于存储所有帖子数据
 
   // 更新滑动条位置
   function updateSliderPosition() {
@@ -73,64 +67,11 @@ document.addEventListener('DOMContentLoaded', function() {
   fetch('index.json')
     .then(response => response.json())
     .then(data => {
-      allPosts = [].concat(data.encyclopedia, data.downloads, data.announcements);
       renderPosts('encyclopedia', data.encyclopedia);
       renderPosts('downloads', data.downloads);
       renderPosts('announcements', data.announcements);
     })
     .catch(error => console.error('Error loading the index JSON:', error));
-
-  // 搜索功能
-  searchButton.addEventListener('click', function() {
-    const query = searchBox.value.trim().toLowerCase();
-    if (query) {
-      const results = allPosts.filter(post =>
-        (post.title.toLowerCase().includes(query)) ||
-        (post.summary.toLowerCase().includes(query)) ||
-        (post.searchable.toLowerCase().includes(query))
-      );
-      displaySearchResults(results);
-      openModal(results.length > 0);
-    } else {
-      openModal(false);
-    }
-  });
-
-  // 显示搜索结果
-  function displaySearchResults(results) {
-    searchResults.innerHTML = ''; // 清空之前的搜索结果
-    if (results.length === 0) {
-      searchResults.innerHTML = '<li>没有找到相关帖子。</li>';
-    } else {
-      results.forEach(result => {
-        const li = document.createElement('li');
-        li.innerHTML = `<a href="${result.href}" target="_blank">${result.title} - ${result.summary}</a>`;
-        searchResults.appendChild(li);
-      });
-    }
-    adjustModalHeight(); // 调整模态框高度
-  }
-
-  // 打开或关闭模态框
-  function openModal(hasResults) {
-    searchModal.style.display = hasResults ? 'block' : 'none';
-    if (hasResults) {
-      adjustModalHeight(); // 打开模态框时调整高度
-    }
-  }
-
-  // 模态框关闭按钮事件
-  closeBtn.addEventListener('click', function() {
-    searchModal.style.display = 'none';
-  });
-
-  // 调整模态框高度
-  function adjustModalHeight() {
-    const modalContent = document.querySelector('.modal-content');
-    const searchResults = document.getElementById('searchResults');
-    const contentHeight = searchResults.scrollHeight;
-    modalContent.style.height = `${contentHeight + 40}px`; // 加上一些额外的padding
-  }
 
   // 渲染帖子到指定内容区域
   function renderPosts(contentId, posts) {
