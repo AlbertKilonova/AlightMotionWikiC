@@ -1,16 +1,16 @@
 {
-  "encyclopedia": [
+  "tutorial": [
     {
       "title": "第一贴",
       "summary": "第一贴的摘要信息。",
-      "href": "encyclopedia/第一贴.html",
+      "href": "tutorial/第一贴.html",
       "searchable": "第一贴 相关关键词1 相关关键词2",
       "version": "v1.0"
     },
     {
       "title": "第二贴",
       "summary": "第二贴的摘要信息。",
-      "href": "encyclopedia/第二贴.html",
+      "href": "tutorial/第二贴.html",
       "searchable": "第二贴 相关关键词1 相关关键词2",
       "version": "v1.0"
     }

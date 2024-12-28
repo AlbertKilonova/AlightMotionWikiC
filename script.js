@@ -73,8 +73,8 @@ document.addEventListener('DOMContentLoaded', function() {
   fetch('index.json')
     .then(response => response.json())
     .then(data => {
-      allPosts = [].concat(data.encyclopedia, data.downloads, data.announcements);
-      renderPosts('encyclopedia', data.encyclopedia);
+      allPosts = [].concat(data.tutorial, data.downloads, data.announcements);
+      renderPosts('tutorial', data.tutorial);
       renderPosts('downloads', data.downloads);
       renderPosts('announcements', data.announcements);
     })
