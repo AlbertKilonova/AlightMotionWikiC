@@ -4,13 +4,15 @@
       "title": "第一贴",
       "summary": "第一贴的摘要信息。",
       "href": "encyclopedia/第一贴.html",
-      "searchable": "第一贴 相关关键词1 相关关键词2"
+      "searchable": "第一贴 相关关键词1 相关关键词2",
+      "version": "v1.0"
     },
     {
       "title": "第二贴",
       "summary": "第二贴的摘要信息。",
       "href": "encyclopedia/第二贴.html",
-      "searchable": "第二贴 相关关键词1 相关关键词2"
+      "searchable": "第二贴 相关关键词1 相关关键词2",
+      "version": "v1.0"
     }
   ],
   "downloads": [
@@ -18,73 +20,85 @@
       "title": "原版[Google Play]",
       "summary": "纯原版的下载链接，需要拉起Google Play。",
       "href": "https://play.google.com/store/apps/details/Alight_Motion?id=com.alightcreative.motion&hl=en_ZA",
-      "searchable": "下载 软件 安装 Google 原版"
+      "searchable": "下载 软件 安装 Google 原版",
+      "version": "官方版"
     },
     {
       "title": "4.0原版破解",
       "summary": "4.0原版破解，功能最少，不建议使用。",
       "href": "http://api.mmp.cc/api/lanzou?type=down&url=https://albertkilonova.lanzoub.com/iGf5o2e2a78j&pwd=g9hw",
-      "searchable": "下载 软件 安装 原版 破解"
+      "searchable": "下载 软件 安装 原版 破解",
+      "version": "v4"
     },
     {
       "title": "5.0原版破解",
       "summary": "5.0版本的破解版，功能齐全，无插件。",
       "href": "http://api.mmp.cc/api/lanzou?type=down&url=https://albertkilonova.lanzoub.com/iOgCe2j88g5e&pwd=az0f",
-      "aearchable": "下载 软件 安装 原版 破解"
+      "searchable": "下载 软件 安装 原版 破解",
+      "version": "v5"
     },
     {
       "title": "AM_LR_V6",
       "summary": "什么奇怪的远古版本。",
       "href": "http://api.mmp.cc/api/lanzou?type=down&url=https://albertkilonova.lanzoub.com/iNywZ2j8d13c&pwd=8apd",
-      "aearchable": ""
+      "searchable": "下载 软件 安装 破解",
+      "version": "V3"
     },
     {
       "title": "Axcven",
       "summary": "来自国内大佬末梢的修改版，内置多种第三方效果，本链接仅提供学习，下载后请自觉删除。",
       "href": "http://api.mmp.cc/api/lanzou?type=down&url=https://albertkilonova.lanzoub.com/ixMo02j88sqh&pwd=cnex",
-      "aearchable": "下载 软件 安装 破解 插件"
+      "searchable": "下载 软件 安装 破解 插件",
+      "version": "末梢"
     },
     {
       "title": "AutFeng_Beta",
       "summary": "！该版本仅作预览版，请购买。来自国内大佬秋风的修改版，内置多种第三方效果，本链接仅提供学习，下载后请自觉删除。",
       "href": "http://api.mmp.cc/api/lanzou?type=down&url=https://albertkilonova.lanzoub.com/iY8hm2j8dx7i&pwd=2ukb",
-      "aearchable": "下载 软件 安装 破解 插件"
+      "searchable": "下载 软件 安装 破解 插件",
+      "version": "Beta"
     },
     {
       "title": "AM_Sy",
       "summary": "来自国内大佬闲云的修改版，分类比Axcven好，但效果较少，本链接仅提供学习，下载后请自觉删除。",
       "href": "http://api.mmp.cc/api/lanzou?type=down&url=https://albertkilonova.lanzoub.com/izTDJ2j88wte&pwd=bm8d",
-      "aearchable": "下载 软件 安装 破解 插件"
+      "searchable": "下载 软件 安装 破解 插件",
+      "version": "Sy"
     },
     {
       "title": "解压工具（不要更新！）",
       "summary": "ZArchiver是一款轻量化多功能的解压工具，不要在应用商店内更新，下方分卷内容需用该软件解压。",
       "href": "http://api.mmp.cc/api/lanzou?type=down&url=https://albertkilonova.lanzoub.com/i7tAJ2j8fqef&pwd=6o3y",
-      "aearchable": "下载 安装 软件 解压"
+      "searchable": "下载 安装 软件 解压",
+      "version": "最新"
     },
     {
       "title": "After_Motion_Z",
       "summary": "来自国外大佬Tracy_Hilton的修改版，首次启动需要外网环境，内置大量第三方效果，本链接仅提供学习，下载后请自觉删除。",
       "href": "https://www.zhanid.com/api/lanzoujx.php?url=https%3A%2F%2Falbertkilonova.lanzoub.com%2FiMAze2j89jqj&type=down",
-      "aearchable": "下载 软件 安装 破解 插件"
+      "searchable": "下载 软件 安装 破解 插件",
+      "version": "Z"
     },
     {
       "title": "Am_Ls（分卷）",
       "summary": "密码：30z5，来自国内大佬凉笙的修改版，包含大量第三方效果，本链接仅提供学习，下载后请自觉删除。",
       "href": "https://albertkilonova.lanzoub.com/b00tb51zad",
-      "aearchable": "下载 软件 安装 破解 插件"
+      "searchable": "下载 软件 安装 破解 插件",
+      "version": "凉笙"
     },
     {
       "title": "Alemon（分卷）",
       "summary": "密码：8b03，来自国内大佬柠檬的修改版，优化较好，提供大量第三方效果，本链接仅提供学习，下载后请自觉删除。",
       "href": "https://albertkilonova.lanzoub.com/b00tb51z7a",
-      "aearchable": "下载 软件 安装 破解 插件"
+      "searchable": "下载 软件 安装 破解 插件",
+      "version": "柠檬"
     },
     {
       "title": "Alight_Motion_Mix3（分卷）",
       "summary": "密码：8dma，来自Alemon团队与其他团队合作的修改版，优化极好，提供大量第三方效果，本链接仅提供学习，下载后请自觉删除。",
       "href": "https://albertkilonova.lanzoub.com/b00tb51yjg",
-      "aearchable": "下载 软件 安装 破解 插件"
+      "searchable": "下载 软件 安装 破解 插件",
+      "version": "Mix3"
     }
   ],
   "announcements": [
@@ -92,7 +106,8 @@
       "title": "公告帖",
       "summary": "公告帖的摘要信息。",
       "href": "announcements/公告贴.html",
-      "searchable": "公告 通知"
+      "searchable": "公告 通知",
+      "version": "v1.0"
     }
   ]
 }
