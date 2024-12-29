@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const modeToggle = document.getElementById('modeToggle');
+  const navItem = document.querySelector('.nav-item[data-target="tutorial"]');
 
   // 切换暗色模式
   function toggleDarkMode() {
@@ -20,4 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // 模式切换按钮点击事件
   modeToggle.addEventListener('click', toggleDarkMode);
+
+  // 导航到上一目录的index文件
+  navItem.addEventListener('click', function() {
+    window.location.href = '../index.html'; // 假设上一目录中的index文件名为index.html
+  });
 });
