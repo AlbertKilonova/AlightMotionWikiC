@@ -18,7 +18,7 @@ body {
 }
 
 /* 暗色模式下模式切换按钮样式 */
-.dark-mode .mode-toggle .fa {
+.dark-mode .mode-toggle {
   color: #fff; /* 白色 */
 }
 
