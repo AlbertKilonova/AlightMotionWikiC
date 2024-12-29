@@ -1,17 +1,17 @@
 {
   "tutorial": [
     {
-      "title": "第一贴",
+      "title": "演示帖",
       "summary": "第一贴的摘要信息。",
-      "href": "tutorial/第一贴.html",
-      "searchable": "第一贴 相关关键词1 相关关键词2",
+      "href": "tutorial/演示帖.html",
+      "searchable": "演示帖 相关关键词1 相关关键词2",
       "version": "v1.0"
     },
     {
-      "title": "第二贴",
-      "summary": "第二贴的摘要信息。",
-      "href": "tutorial/第二贴.html",
-      "searchable": "第二贴 相关关键词1 相关关键词2",
+      "title": "第二帖",
+      "summary": "第二帖的摘要信息。",
+      "href": "tutorial/第二帖.html",
+      "searchable": "第二帖 相关关键词1 相关关键词2",
       "version": "v1.0"
     }
   ],
