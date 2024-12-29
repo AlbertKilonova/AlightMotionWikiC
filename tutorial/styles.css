@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 0px; /* 设置导航栏与外框的边距为8px */
+  padding: 0 8px; /* 设置导航栏与外框的边距为8px */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
