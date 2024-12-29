@@ -5,8 +5,9 @@ body {
   padding: 0;
   transition: background-color 0.3s, color 0.3s; /* 过渡动画效果 */
 }
+
 /* 定义暗色模式下的背景和文字颜色 */
-.dark-mode{
+.dark-mode {
   background-color: #333;
   color: #fff;
 }
@@ -36,37 +37,34 @@ body {
   color: #ccc;
 }
 
-.dark-mode .nav-item {
-  color: #fff;
-}
-
 /* 导航栏容器样式 */
 .slider-navigation {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  overflow: hidden;
-  position: relative;
-  padding: 0px;
+  justify-content: space-between;
+  padding: 0 0px; /* 设置导航栏与外框的边距为8px */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* 导航项容器样式 */
 .nav-container {
   display: flex;
-  flex-wrap: nowrap;
-  white-space: nowrap;
-  position: relative;
+  align-items: center;
+  justify-content: center; /* 使名称居中 */
 }
 
 /* 单个导航项样式 */
 .nav-item {
-  padding: 5px 10px;
-  margin-right: 10px;
   cursor: pointer;
   position: relative;
-  z-index: 1;
   color: #333;
+  padding: 4px; /* 设置导航项的内边距 */
+}
+
+.nav-item[data-target="tutorial"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 导航项悬浮和焦点状态样式 */
