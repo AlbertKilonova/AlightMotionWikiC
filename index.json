@@ -2,7 +2,7 @@
   "tutorial": [
     {
       "title": "演示帖",
-      "summary": "第一贴的摘要信息。",
+      "summary": "演示帖的摘要信息。",
       "href": "tutorial/演示帖.html",
       "searchable": "演示帖 相关关键词1 相关关键词2",
       "version": "v1.0"
