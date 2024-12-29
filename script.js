@@ -1,3 +1,5 @@
+const style = 'font-size: 16px; font-weight: bold; font-family: "Arial"; background-color: black; padding: 5px; border: 2px solid blue; border-radius: 5px;';
+console.log('%c 欢迎来到AlightMotionWiki', style);
 document.addEventListener('DOMContentLoaded', function() {
   const navItems = document.querySelectorAll('.nav-item');
   const sliderBar = document.querySelector('.slider-bar');
