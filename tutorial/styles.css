@@ -18,8 +18,12 @@ body {
 }
 
 /* 暗色模式下模式切换按钮样式 */
-.dark-mode .mode-toggle {
+.dark-mode .mode-toggle .fa {
   color: #fff; /* 白色 */
+}
+
+.dark-mode .nav-item {
+  color: #fff;
 }
 
 /* 暗色模式下链接样式 */
