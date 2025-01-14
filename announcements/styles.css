@@ -3,7 +3,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  transition: background-color 0.3s, color 0.3s; /* 过渡动画效果 */
+  transition: background-color 0.3s, color 0.3s;
+  /* 过渡动画效果 */
 }
 
 /* 定义暗色模式下的背景和文字颜色 */
@@ -14,12 +15,14 @@ body {
 
 /* 暗色模式下的文字样式 */
 .dark-mode .logo-text {
-  fill: #fff; /* 白色文字 */
+  fill: #fff;
+  /* 白色文字 */
 }
 
 /* 暗色模式下模式切换按钮样式 */
 .dark-mode .mode-toggle {
-  color: #fff; /* 白色 */
+  color: #fff;
+  /* 白色 */
 }
 
 .dark-mode .nav-item {
@@ -32,7 +35,12 @@ body {
 }
 
 /* 暗色模式下标题样式 */
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
   color: #fff;
 }
 
@@ -46,7 +54,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 8px; /* 设置导航栏与外框的边距为8px */
+  padding: 0 8px;
+  /* 设置导航栏与外框的边距为8px */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -54,7 +63,8 @@ body {
 .nav-container {
   display: flex;
   align-items: center;
-  justify-content: center; /* 使名称居中 */
+  justify-content: center;
+  /* 使名称居中 */
 }
 
 /* 单个导航项样式 */
@@ -62,7 +72,8 @@ body {
   cursor: pointer;
   position: relative;
   color: #333;
-  padding: 4px; /* 设置导航项的内边距 */
+  padding: 4px;
+  /* 设置导航项的内边距 */
 }
 
 .nav-item[data-target="tutorial"] {
@@ -97,18 +108,22 @@ body {
 
 /* 暗色模式下月亮图标的显示和隐藏 */
 .fa-moon {
-  display: none; /* 默认隐藏月亮图标 */
+  display: none;
+  /* 默认隐藏月亮图标 */
 }
 
 .dark-mode .fa-moon {
-  display: inline-block; /* 暗色模式时显示月亮图标 */
+  display: inline-block;
+  /* 暗色模式时显示月亮图标 */
 }
 
 .dark-mode .fa-sun {
-  display: none; /* 暗色模式时隐藏太阳图标 */
+  display: none;
+  /* 暗色模式时隐藏太阳图标 */
 }
 
 /* Font Awesome图标样式 */
 .search-button i {
-  pointer-events: none; /* 防止图标影响点击事件 */
+  pointer-events: none;
+  /* 防止图标影响点击事件 */
 }
