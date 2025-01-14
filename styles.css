@@ -3,32 +3,38 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  transition: background-color 0.3s, color 0.3s; /* 过渡动画效果 */
+  transition: background-color 0.3s, color 0.3s;
+  /* 过渡动画效果 */
 }
+
 /* 定义暗色模式下的背景和文字颜色 */
-.dark-mode{
+.dark-mode {
   background-color: #333;
   color: #fff;
 }
 
 /* 暗色模式下的文字样式 */
 .dark-mode .logo-text {
-  fill: #fff; /* 白色文字 */
+  fill: #fff;
+  /* 白色文字 */
 }
 
 /* 暗色模式下导航项样式 */
 .dark-mode .nav-item {
-  color: #fff; /* 白色 */
+  color: #fff;
+  /* 白色 */
 }
 
 /* 暗色模式下激活状态的导航项样式 */
 .dark-mode .nav-item.active {
-  color: #5CE5FF; /* 保持不变 */
+  color: #5CE5FF;
+  /* 保持不变 */
 }
 
 /* 暗色模式下模式切换按钮样式 */
 .dark-mode .mode-toggle {
-  color: #fff; /* 白色 */
+  color: #fff;
+  /* 白色 */
 }
 
 /* 暗色模式下内容区域和帖子样式 */
@@ -65,7 +71,12 @@ body {
 }
 
 /* 暗色模式下标题样式 */
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
   color: #fff;
 }
 
@@ -173,32 +184,42 @@ body {
 
 /* 暗色模式下月亮图标的显示和隐藏 */
 .fa-moon {
-  display: none; /* 默认隐藏月亮图标 */
+  display: none;
+  /* 默认隐藏月亮图标 */
 }
 
 .dark-mode .fa-moon {
-  display: inline-block; /* 暗色模式时显示月亮图标 */
+  display: inline-block;
+  /* 暗色模式时显示月亮图标 */
 }
 
 .dark-mode .fa-sun {
-  display: none; /* 暗色模式时隐藏太阳图标 */
+  display: none;
+  /* 暗色模式时隐藏太阳图标 */
 }
 
 /* 搜索框容器样式 */
 .search-container {
-  display: flex; /* 使用Flexbox布局 */
-  align-items: center; /* 垂直居中 */
+  display: flex;
+  /* 使用Flexbox布局 */
+  align-items: center;
+  /* 垂直居中 */
   position: relative;
-  width: 95%; /* 宽度自适应 */
-  margin: auto; /* 水平居中 */
+  width: 95%;
+  /* 宽度自适应 */
+  margin: auto;
+  /* 水平居中 */
 }
 
 /* 搜索框样式 */
 .search-box {
-  flex-grow: 1; /* 输入框占据剩余空间 */
-  padding: 10px 15px; /* 内边距 */
+  flex-grow: 1;
+  /* 输入框占据剩余空间 */
+  padding: 10px 15px;
+  /* 内边距 */
   border: 1px solid #48D1EB;
-  border-radius: 25px 0 0 25px; /* 圆角 */
+  border-radius: 25px 0 0 25px;
+  /* 圆角 */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   outline: none;
   transition: all 0.3s ease;
@@ -214,13 +235,16 @@ body {
 .search-button {
   display: flex;
   align-items: center;
-  justify-content: center; /* 图标居中 */
-  padding: 11.5px; /* 内边距 */
+  justify-content: center;
+  /* 图标居中 */
+  padding: 11.5px;
+  /* 内边距 */
   border: none;
   background-color: #70F9FF;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   color: #000;
-  border-radius: 0 25px 25px 0; /* 圆角 */
+  border-radius: 0 25px 25px 0;
+  /* 圆角 */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -233,7 +257,8 @@ body {
 
 /* Font Awesome图标样式 */
 .search-button i {
-  pointer-events: none; /* 防止图标影响点击事件 */
+  pointer-events: none;
+  /* 防止图标影响点击事件 */
 }
 
 /* 内容区域样式 */
@@ -258,9 +283,12 @@ body {
   border-radius: 4px;
   border: 1px solid #ccc;
   background-color: #f9f9f9;
-  opacity: 0; /* 初始状态为透明 */
-  transform: translateY(20px); /* 初始状态向上偏移 */
-  transition: opacity 0.5s ease, transform 0.5s ease; /* 定义过渡动画 */
+  opacity: 0;
+  /* 初始状态为透明 */
+  transform: translateY(20px);
+  /* 初始状态向上偏移 */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  /* 定义过渡动画 */
 }
 
 /* 帖子进入动画 */
@@ -269,6 +297,7 @@ body {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -281,6 +310,7 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+
   to {
     opacity: 0;
     transform: translateY(20px);
@@ -294,7 +324,8 @@ body {
 
 /* 模态框样式 */
 .modal {
-  display: none; /* 默认隐藏 */
+  display: none;
+  /* 默认隐藏 */
   position: fixed;
   z-index: 1000;
   left: 0;
@@ -302,8 +333,10 @@ body {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4); /* 背景半透明 */
-  animation: fadeIn 0.5s; /* 淡入动画 */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* 背景半透明 */
+  animation: fadeIn 0.5s;
+  /* 淡入动画 */
 }
 
 /* 模态框内容样式 */
@@ -314,9 +347,12 @@ body {
   border: 1px solid #888;
   width: 80%;
   max-width: 700px;
-  border-radius: 5px; /* 圆角 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 阴影效果 */
-  animation: slideDown 0.5s; /* 下滑动画 */
+  border-radius: 5px;
+  /* 圆角 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* 阴影效果 */
+  animation: slideDown 0.5s;
+  /* 下滑动画 */
 }
 
 /* 模态框关闭按钮样式 */
@@ -362,7 +398,8 @@ body {
   text-decoration: none;
   color: #00f;
   font-weight: bold;
-  display: block; /* 使链接占据整个列表项，方便点击 */
+  display: block;
+  /* 使链接占据整个列表项，方便点击 */
 }
 
 .modal a:hover {
@@ -403,13 +440,25 @@ body {
 
 /* 动画 */
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slideDown {
-  0% { transform: translateY(-30px); opacity: 0; }
-  100% { transform: translateY(0); opacity: 1; }
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* 黑夜模式下的模态框内容样式 */
@@ -437,20 +486,27 @@ body {
 
 /* 去除a标签的所有默认样式 */
 a {
-  color: #000; /* 继承父元素颜色 */
-  text-decoration: none; /* 去除下划线 */
-  background-color: transparent; /* 去除背景颜色 */
+  color: #000;
+  /* 继承父元素颜色 */
+  text-decoration: none;
+  /* 去除下划线 */
+  background-color: transparent;
+  /* 去除背景颜色 */
 }
 
 /* 特别为模态框中的链接添加样式 */
 .modal a {
-  color: #000; /* 链接颜色 */
-  font-weight: bold; /* 字体加粗 */
+  color: #000;
+  /* 链接颜色 */
+  font-weight: bold;
+  /* 字体加粗 */
 }
 
 .modal a:hover {
-  text-decoration: underline; /* 鼠标悬浮时添加下划线 */
-  background-color: #e9e9e9; /* 鼠标悬浮时的背景颜色 */
+  text-decoration: underline;
+  /* 鼠标悬浮时添加下划线 */
+  background-color: #e9e9e9;
+  /* 鼠标悬浮时的背景颜色 */
 }
 
 /* 高亮显示搜索结果的关键字 */
