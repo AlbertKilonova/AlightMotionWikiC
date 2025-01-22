@@ -127,3 +127,6 @@ body {
   pointer-events: none;
   /* 防止图标影响点击事件 */
 }
+a {
+  color: #000;
+}
