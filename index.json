@@ -1,11 +1,11 @@
 {
   "tutorial": [
     {
-      "title": "演示帖",
-      "summary": "演示帖的摘要信息。",
-      "href": "tutorial/演示帖.html",
-      "searchable": "演示帖 相关关键词1 相关关键词2",
-      "version": "v1.0"
+      "title": "版本与下载",
+      "summary": "本帖介绍AlightMotion各版本区别，以及如何下载安装，正式学习前请看本帖",
+      "href": "tutorial/版本与下载-glthub,albertkilonova,anming,巴基斯坦球.html",
+      "searchable": "版本 下载 解压 介绍 基础 萌新",
+      "version": "All"
     }
   ],
   "downloads": [
